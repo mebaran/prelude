@@ -19,3 +19,7 @@
 (defun prelude-interactive-lisp-coding-defaults ()
   (paredit-mode +1)
   (whitespace-mode -1))
+
+(define-key global-map (kbd "RET") 'newline-and-indent)
+
+;;; settings.el ends here
