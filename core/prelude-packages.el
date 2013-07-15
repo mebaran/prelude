@@ -42,12 +42,12 @@
 
 (defvar prelude-packages
   '(ace-jump-mode ack-and-a-half dash diminish elisp-slime-nav
-    expand-region flycheck gist
-    git-commit-mode gitconfig-mode gitignore-mode
+    expand-region flx flycheck gist
+    git-commit-mode gitconfig-mode gitignore-mode grizzl
     guru-mode helm helm-projectile ido-ubiquitous
-    key-chord magit melpa rainbow-mode
-    smex solarized-theme undo-tree
-    volatile-highlights yasnippet zenburn-theme)
+    key-chord magit rainbow-mode
+    smartparens smex solarized-theme undo-tree
+    volatile-highlights zenburn-theme)
   "A list of packages to ensure are installed at launch.")
 
 (defun prelude-packages-installed-p ()
