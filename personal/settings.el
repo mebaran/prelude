@@ -6,7 +6,7 @@
 (prelude-ensure-module-deps '(color-theme-solarized))
 
 (set-default-font "-outline-Consolas-normal-r-normal-normal-14-97-96-96-c-*-iso8859-1")
-(load-theme 'solarized-dark t)
+(load-theme 'solarized t)
 (scroll-bar-mode -1)
 
 (setq prelude-guru nil)
